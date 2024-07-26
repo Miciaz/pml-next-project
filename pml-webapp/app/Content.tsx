@@ -16,6 +16,7 @@ const StyledContent = styled.main`
   padding: 1rem;
   background-color: #f4f4f4;
   text-align: center;
+  color: black;
 `;
 
 export default Content;

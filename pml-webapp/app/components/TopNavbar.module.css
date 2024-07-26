@@ -1,0 +1,48 @@
+/* app/components/TopNavbar.module.css */
+.topNavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .hamburgerMenu, .searchIcon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .centerButton a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .searchBox {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .searchBox input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  @media (min-width: 768px) {
+    .centerButton a {
+      font-size: 24px;
+    }
+  }
+  

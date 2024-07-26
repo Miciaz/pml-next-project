@@ -1,0 +1,20 @@
+/* app/components/MatchSchedule.module.css */
+.schedule {
+    padding: 20px;
+  }
+  
+  .schedule h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .schedule ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .schedule li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  

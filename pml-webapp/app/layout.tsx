@@ -1,8 +1,8 @@
 // app/layout.tsx
 import './globals.css';
 import React from 'react';
-import TopNavbar from './components/TopNavbar';
-import BottomNavbar from './components/BottomNavbar';
+import NavbarTop from './NavbarTop';
+import NavbarBottom from './NavbarBottom';
 
 export const metadata = {
   title: 'My Next.js App',
@@ -13,9 +13,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <TopNavbar />
+        <NavbarTop />
         <main>{children}</main>
-        <BottomNavbar />
+        <NavbarBottom />
       </body>
     </html>
   );

@@ -1,9 +1,10 @@
 "use client";
 
-import React from 'react';
+import React, { ReactElement } from 'react';
 import styled from 'styled-components';
 
-const NavbarBottom = () => {
+//usa sempre export function nomecomponent, invece delle costanti
+export function NavbarBottom(): ReactElement {
   return (
     <StyledNavbar>
       <ButtonContainer>
@@ -15,6 +16,7 @@ const NavbarBottom = () => {
   );
 };
 
+//lo stile poi lo metteremo nei moduli di sass così rimane più ordinato
 const StyledNavbar = styled.nav`
   width: 100%;
   padding: 1rem;
@@ -49,4 +51,3 @@ const ButtonContainer = styled.div`
   }
 `;
 
-export default NavbarBottom;

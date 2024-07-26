@@ -1,9 +1,11 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { ReactElement, useState } from 'react';
 import styled from 'styled-components';
 
-const NavbarTop = () => {
+
+//qua uguale all'altro componente lo metto come funzione
+export function NavbarTop(): ReactElement {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
@@ -98,5 +100,5 @@ const SearchInput = styled.input`
   border: 1px solid #ccc;
 `;
 
-export default NavbarTop;
+
 
